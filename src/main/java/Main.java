@@ -1,23 +1,25 @@
 public class Main {
   public static void main(String[] args) {
-    // Arithmetic operators
+    // Logical operators
     int number1 = 12;
-    int number2 = 6;
+    int number2 = 15;
 
-    // addition '+'
-    System.out.println(number1 + number2); // 18
+    // is equal to '=='
+    System.out.println(number1 == number2); // false
 
-    // subtraction '-'
-    System.out.println(number1 - number2); // 6
+    // is not equal to '!='
+    System.out.println(number1 != number2); // true
 
-    // multiplication '*'
-    System.out.println(number1 * number2); // 72
+    // is greater than '>'
+    System.out.println(number1 > number2); // false
 
-    // division '/' (NB int / int == int)cl
-    System.out.println(number1 / number2); // 2
+    // is less than '<'
+    System.out.println(number1 < number2); // true
 
-    // remainder (modulo/modulus) '%'
-    System.out.println(number1 % number2); // 0
-    
+    // is greater than or equal to '>='
+    System.out.println(number1 >= number2); // false
+
+    // is less than or equal to '<='
+    System.out.println(number1 <= number2); // true
   }
 }
