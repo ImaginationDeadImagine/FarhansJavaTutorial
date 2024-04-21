@@ -3,20 +3,28 @@
 // import org.junit.jupiter.api.Test;
 
 public class Main {
-  // A static variable at the class level.
-  // if not initialised in the code, class level variables are initialise to default values by the java compiler.
-  // NB A static method (like main here) can only work with static variables.
-  static int age;
-
   public static void main(String[] args) {
-    // Variables can be redeclared provided they are unique to a particular code block.
-    int age = 63;
+    // Two main types of data in Java:
+    // 1. Primitive data types - store values: int, double, boolean, char
+    // 2. Reference data types - store references to memorey locations while a dynamic object is being stored: String, Arrays, Objects
     
-    System.out.println("I am " + age + " years old.");
-  }
+    // Integer types
+    byte aSingleByte = 100;  // -128 to 127
+    short aSmallNumber = 20000;  // -32,768 to 32,767
+    int anInteger = 2147483647;  // -2,147,483,648 to 2,147,483,647
+    long aLargeNumber = 9223372036854775807L;  // 9223372036854775808 to -9223372036854775807
 
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+    // Decimal types
+    double aDouble = 1.79769313;  // 4.9E-324 to 1.7976931348623157E308
+    float aFloat = 3.4028F;  // 1.4E-45 to 3.4028235E38
+
+    // booleans
+    boolean isWeekend = false;
+    boolean isWorkday = true;
+
+    // characters
+    char copyrightSymbol = '\u00A9';
+    
+    System.out.println("This is the copyright symbol: " + copyrightSymbol);
+    }
 }
