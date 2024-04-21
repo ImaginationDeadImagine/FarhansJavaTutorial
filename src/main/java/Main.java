@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-    // Logical operators
+    // Relational operators
     int number1 = 12;
     int number2 = 15;
 
