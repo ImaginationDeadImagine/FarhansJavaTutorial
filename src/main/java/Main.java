@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-    // Operators
+    // Arithmetic perators
     int number1 = 12;
     int number2 = 6;
 
@@ -13,7 +13,7 @@ public class Main {
     // multiplication '*'
     System.out.println(number1 * number2); // 72
 
-    // division '/'
+    // division '/' (NB int / int == int)cl
     System.out.println(number1 / number2); // 2
 
     // remainder (modulo/modulus) '%'
