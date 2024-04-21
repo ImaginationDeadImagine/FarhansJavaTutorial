@@ -4,10 +4,10 @@
 
 public class Main {
   // A static variable at the class level.
-  // if not initialised in the code, class level variables are initialise by default in java.
+  // if not initialised in the code, class level variables are initialise to default values by the java compiler.
   // NB A static method (like main here) can only work with static variables.
-  static int age = 63;
-  
+  static int age;
+
   public static void main(String[] args) {
     
     System.out.println("I am " + age + " years old.");
