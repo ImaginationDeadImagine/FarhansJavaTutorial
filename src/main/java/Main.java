@@ -1,12 +1,23 @@
 public class Main {
   public static void main(String[] args) {
-    // Type conversion: double to integer
-    
-    double number1 = 5.8;
-    int number2 = (int) number1;
+    // Operators
+    int number1 = 12;
+    int number2 = 6;
 
-    // Incompatible types: possible lossy conversion from double to int
-    System.out.println("Number 1 is " + number1);
-    System.out.println("Number 2 is " + number2);
+    // addition '+'
+    System.out.println(number1 + number2); // 18
+
+    // subtraction '-'
+    System.out.println(number1 - number2); // 6
+
+    // multiplication '*'
+    System.out.println(number1 * number2); // 72
+
+    // division '/'
+    System.out.println(number1 / number2); // 2
+
+    // remainder (modulo/modulus) '%'
+    System.out.println(number1 % number2); // 0
+    
   }
 }
