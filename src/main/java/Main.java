@@ -9,6 +9,8 @@ public class Main {
   static int age;
 
   public static void main(String[] args) {
+    // Variables can be redeclared provided they are unique to a particular code block.
+    int age = 63;
     
     System.out.println("I am " + age + " years old.");
   }
